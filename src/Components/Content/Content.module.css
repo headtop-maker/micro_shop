@@ -1,0 +1,5 @@
+.grid_box{
+    display: grid;
+    /* border: 1px dashed rgb(65, 74, 112); */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }

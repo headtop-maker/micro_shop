@@ -1,0 +1,14 @@
+  
+.grid_item2{
+    /* border: 1px dashed red; */
+    grid-row:2/4;
+    text-align: center;
+  }
+.grid_item2 nav div {
+    margin-left: 5px;
+    border: 1px dashed red;
+    border-radius:4px;
+    height: 30px;
+    margin-top: 5px;
+
+} 

@@ -1,0 +1,42 @@
+.grid_item_box{
+  margin: 2px;
+  height: 230px;
+  width: 250px;
+  /* border: 1px solid rgb(26, 73, 21); */
+  background-color:beige;
+}
+  
+  .box_img img{
+    border: 1px solid red;
+    border-radius:5px;
+    height: 183px;
+    width: 245px;
+    margin: 2px;
+  }
+  .box_btn_l{
+  
+    border: 0.5px solid rgb(55, 99, 180);
+    border-radius: 4px;
+    margin-left: 2px;
+    height: 30px;
+    width: 48%;
+    float: left;
+    text-align: center;
+    margin-bottom: 2px;
+  }
+  
+  .box_btn_r{
+    border: 0.5px solid rgb(55, 99, 180);
+    border-radius: 4px;
+    margin-right: 2px;
+    height: 30px;
+    width: 46%;
+    float: right;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 2px;
+  }
+  .box_btn_r:hover{
+    background-color:aquamarine;
+    color: aliceblue;
+  }

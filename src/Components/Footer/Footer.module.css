@@ -1,0 +1,14 @@
+  .grid_item4{
+    text-align: center;
+    /* border: 1px dashed red; */
+    grid-column:1/6;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    border-radius:5px;
+  }
+
+  .grid_item4 h1{
+    color: rgba(44, 43, 43, 0.6);
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    margin: auto;
+   
+   }

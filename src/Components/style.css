@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    /* border: 1px dashed red; */
+
+    grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+    grid-template-rows:70px 1fr 1fr 70px;
+    grid-gap: 5px ;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:4px;
+    padding: 10px;
+  }
+  
+
+  
+  .grid-item{
+    min-height: 30px;
+    border: 1px dashed red;
+  }
+
+
+
+  .grid-item4{
+    text-align: center;
+    border: 1px dashed red;
+    grid-column:1/6;
+  }
